@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Particle Experiment 1</title>
+<link rel="stylesheet" type="text/css" href="particles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+</head>
+
+<body>
+
+<canvas id="viewport" width=573 height=150></canvas>
+
+
+<script type="text/javascript">
+    var GauntraParticles = {};
+</script>
+<script type="text/javascript" src="animations.js"></script>
+<script type="text/javascript" src="particles.js"></script>
+
+<div id="controls">
+    <button onclick="GauntraParticles.Anims.resetTimeState(); animationPhase = 'emitAnim'">
+        <span>&raquo;</span>Pixel Axe<em>emitter phase concept</em></button>
+    
+    <button onclick="GauntraParticles.Anims.resetTimeState(); animationPhase = 'showingAnim'">
+        Ambient<em>holding pattern</em></button>
+    
+    <button onclick="GauntraParticles.Anims.resetTimeState(); animationPhase = 'scatterAnim'">
+        <span>&laquo;</span>PixeLaser<em>scatter phase concept</button>
+        
+    <button onclick="GauntraParticles.Anims.resetTimeState(); animationPhase = 'hidingAnim'">
+        <span>&laquo;</span>Dimiss<em>scatter phase concept</button>
+</div>
+
+<div id="output"></div>
+</body>
+</html>

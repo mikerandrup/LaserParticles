@@ -1,0 +1,55 @@
+body {
+	background-color: #000;	
+	min-height: 320px;
+}
+
+#viewport {
+	margin-bottom: 15px;	
+	display: block;
+}
+
+#output {
+	visibility: hidden;
+}
+
+button {
+	color: #FFF;
+	background-color: #333;
+	font-size: 1.3em;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 40px;
+	padding: 8px;
+	border: 7px #CF0 outset;
+	margin-right: 10px;
+	margin-left: 10px;
+	opacity: 0.3;
+	margin-top:10px;
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#4d4e4e), color-stop(100%,#1e1e1e));
+	-webkit-transition: all 0.15s linear;
+}
+
+button:hover {
+	padding-top:18px;
+	padding-bottom:22px;	
+	opacity: 1.0;
+	margin-top: -10px;
+	-webkit-transition: all 0.15s linear;
+}
+
+button em {
+	font-size: 0.5em;
+	display: block;
+}
+
+button[disabled] {
+	opacity: 0.7;	
+	color: #666;
+}
+
+span {
+	font-size: 3.0em;
+	color: #CF0;
+	position: relative;
+	margin: 0;
+	display: none;
+}
